@@ -1,0 +1,483 @@
+@charset "utf-8";
+/*
+Title: 刑事恋爱档案
+Author: 九歌
+License: MIT
+Date:2020/2/23
+*/
+/* 引入字体等 */
+/* @import "//cdn.repository.webfont.com/webfonts/nomal/107100/45803/5e455f09f629d80320d7f014.css"; */
+/*盲改一波*/
+/* 主体部分 */
+.jiuge {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-family: "microsoft yahei", Arial;
+    line-height: 150%;
+    min-width: 1080px;
+    
+}
+
+.jiuge * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.jiuge .part01 {
+    width: 100%;
+    height: 620px;
+    /* background-image: url(https://cdn01.qnight.ink/upload/2020/02/70c7a4c05c1f7.png); */
+    background-size: 100%;
+    background-position: center;
+    box-shadow: inset 0 -30px 30px rgb(140, 175, 148);
+}
+
+.jiuge .part01 .mainhead {
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.jiuge .part01 .mainhead .headpost {
+    /* background-image: url(https://cdn01.qnight.ink/upload/2020/02/8648fbf438fe1.png); */
+    background-image: url('https://wx3.sinaimg.cn/mw690/006Rg6p6ly1gc6pfboyspj30zn0p149l.jpg');
+    width: 1000px;
+    height: 100%;
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    opacity: 1;
+}
+
+.jiuge .part01 .mainhead .headtitle {
+    /* background-image: url(https://cdn01.jiuge.ink/upload/2020/02/f155d5dd86a08.png); */
+    /* background-image: url('https://wx3.sinaimg.cn/mw690/006Rg6p6ly1gc6pfct5ubj30rs0rsu0z.jpg'); */
+    width: 300px;
+    height: 600px;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.jiuge .part02 {
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    background-image: none;
+    height: 700px;
+    background-image: url("https://wx2.sinaimg.cn/mw690/006Rg6p6ly1gc6ph57y54j30u018zb2d.jpg");
+    /* background-image: url("底纹副本.png"); */
+    /* background-repeat: repeat; */
+    background-size: 1000px;
+}
+
+ .jiuge .part02 .mainhead {
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.jiuge .part02 .mainhead .headpost {
+    width: 1100px;
+    height: 100%;
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    opacity: 1;
+}
+
+.jiuge .part02 .mainhead .headtitle {
+    width: 300px;
+    height: 600px;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    opacity: 1;
+    z-index: 1;
+} 
+
+.jiuge .part02 .mainbody {
+    width: 950px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.jiuge .part02 .mainbody .staff {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding-left: 50px;
+    font-size: 18px;
+    
+}
+
+.jiuge .part02 .mainbody .staff h3 {
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 200px;
+    z-index: 999;
+}
+
+.jiuge .part02 .mainbody .staff h3::before {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-image: url('皇冠.png');
+    background-size: 100px 100px;
+    position: absolute;
+    z-index:-1;
+    left:-50px;
+    top:-50px;
+}
+
+
+
+.jiuge .part02 .mainbody .cast {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    padding-left: 50px;
+    font-size: 18px;
+    z-index: 1000;
+}
+
+.jiuge .part02 .mainbody .cast h3 {
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 120px;
+    z-index: 1000;
+}
+
+.jiuge .part02 .mainbody .cast h3::before {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-image: url('皇冠.png');
+    background-size: 100px 100px;
+    position: absolute;
+    z-index:-1;
+    left:-50px;
+    top:-50px;
+    
+}
+
+.jiuge .part02 .mainbody .bless {
+    position: absolute;
+    top: 500px;
+    left: 0;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+.jiuge .part02 .mainbody .bless h3 {
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 340px;
+    z-index: 999;
+}
+
+.jiuge .part02 .mainbody .bless h3::before {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-image: url('皇冠.png');
+    background-size: 100px 100px;
+    position: absolute;
+    z-index:-1;
+    left:-50px;
+    top:-50px;
+}
+
+.jiuge .part02 .mainbody .bless >span{
+    padding-left: 20px;
+}
+
+
+.jiuge .part02 .mainbody .link {
+    position: absolute;
+    top: 500px;
+    right: 0px;
+    padding-left: 50px;
+    font-size: 18px;
+    z-index: 1000;
+}
+
+.jiuge .part02 .mainbody .link h3 {
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 120px;
+    z-index: 1000;
+}
+
+.jiuge .part02 .mainbody .link h3::before {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-image: url('皇冠.png');
+    background-size: 100px 100px;
+    position: absolute;
+    z-index:-1;
+    left:-50px;
+    top:-50px;
+    
+}
+
+
+.jiuge .part02 .mainbody .link a {
+    display: inline-block;
+}
+
+.jiuge .part02 .mainbody .link c {
+    display: inline-block !important;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #000;
+}
+
+.jiuge .part02 .mainbody .link .missevan {
+    background-image: url(https://cdn01.qnight.ink/upload/2020/02/b53aa464c39fe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    position: relative;
+}
+
+.jiuge .part02 .mainbody .link .missevan::after {
+    display: block;
+    content: "猫耳FM";
+    position: absolute;
+    bottom: -15px;
+    left: -9px;
+    text-align: center;
+    width: 130%;
+}
+
+.jiuge .part02 .mainbody .link .baiducloud {
+    background-image: url(https://cdn01.qnight.ink/upload/2020/02/962337487fc9a.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    position: relative;
+}
+
+.jiuge .part02 .mainbody .link .baiducloud::after {
+    display: block;
+    content: "提取码:o8d6";
+    position: absolute;
+    bottom: -15px;
+    left: -9px;
+    text-align: center;
+    width: 130%;
+    font-size: 12px;
+}
+.jiuge .part02 .mainbody .link .kugou5sing {
+    background-image: url(https://cdn01.qnight.ink/upload/2020/02/88e0ac3f23236.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.jiuge .part02 .mainbody .link .kugou5sing::after {
+    display: block;
+    content: "片尾曲";
+    position: absolute;
+    bottom: -15px;
+    left: -9px;
+    text-align: center;
+    width: 130%;
+}
+
+.jiuge .part02 .mainbody .link .bilibili {
+    background-image: url(https://cdn01.qnight.ink/upload/2020/02/45dee261404a8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    position: relative;
+}
+
+.jiuge .part02 .mainbody .link .bilibili::after {
+    display: block;
+    content: "哔哩哔哩";
+    position: absolute;
+    bottom: -15px;
+    left: -9px;
+    text-align: center;
+    width: 130%;
+}
+
+.jiuge .part03 {
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    background-image: none;
+    height: 700px;
+   background-color: #bbe0da;
+   
+}
+
+ .jiuge .part03 .mainhead {
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.jiuge .part03 .mainhead .headpost {
+    width: 1100px;
+    height: 100%;
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    opacity: 1;
+}
+
+.jiuge .part03 .mainhead .headtitle {
+    width: 300px;
+    height: 600px;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    opacity: 1;
+    z-index: 1;
+} 
+
+.jiuge .part03 .mainbody {
+    width: 950px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.jiuge .part03 .mainbody .edpost {
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 600px;
+    top:50px;
+    background-image: url("https://wx2.sinaimg.cn/mw690/006Rg6p6ly1gc6pfd607bj30rg14jhdx.jpg");
+    background-size: cover;
+}
+
+.jiuge .part03 .mainbody .ed {
+    position: absolute;
+    right: 0;  
+    top:50px;
+}
+
+.jiuge .part03 .mainbody .edlyrics{
+    position: absolute;
+    top: 250px;
+    right: 0;
+    
+   
+   
+}
+
+.jiuge .part04 .mainbody .author {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 12px;
+    line-height: 120%;
+    opacity: 0.6;
+    text-align: center;
+    width: 100%;
+}
+
+.jiuge .part03 .mainbody .video {
+    position: absolute;
+    right: 30px;
+    top:620px;
+    font-size: 12px;
+    line-height: 120%;
+   
+    text-align: center;
+}
+
+.jiuge .part04 {
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    background-image: none;
+    height: 250px;
+    background-image: url("https://wx2.sinaimg.cn/mw690/006Rg6p6ly1gc6ph57y54j30u018zb2d.jpg");
+    /* background-image: url("底纹副本.png"); */
+    /* background-repeat: repeat; */
+    background-size: 1000px;
+}
+
+.jiuge .part04 .mainbody {
+    width: 950px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.jiuge .part04 .mainbody .say{
+    margin-top:50px;
+}
+
+.jiuge .part04 .mainbody .state{
+    margin-top: 50px;
+}
+
+
+
+
